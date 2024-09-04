@@ -66,10 +66,17 @@ Make sure you have the following installed:
    1. **Start the Development Server:**
 
       Use npm to start the development server:
+# Project Title
+
+## Project Structure
+
+The project directory is structured as follows:
+
+project-root/ ├── public/ │ ├── favicon.ico # Favicon for the project │ └── index.html # Main HTML file │ ├── src/ │ ├── components/ │ │ ├── TaskInput.jsx # Component for adding tasks │ │ └── TaskList.jsx # Component for displaying tasks │ │ │ ├── styles/ │ │ ├── App.css # Main application styles │ │ └── index.css # Global styles │ │ │ ├── App.jsx # Main application component │ └── index.jsx # Entry point for React application │ ├── .gitignore # Specifies files and directories to be ignored by Git ├── package.json # Project metadata and dependencies ├── README.md # Project documentation └── vite.config.js # Vite configuration file
 
       ```bash
       npm run dev
 
-   2. **Open the Application in Your Browser:**
+   3. **Open the Application in Your Browser:**
 
       After starting the server, open your browser and go to http://localhost:3000 to view the application.  

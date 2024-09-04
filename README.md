@@ -73,5 +73,19 @@ Make sure you have the following installed:
 
 ## Project structure
 
-- 
+- **src/:** Source code directory.
+   - **components/**: Contains reusable components
+       - **TaskInput.jsx**: Component for adding new tasks.
+       - **TaskList.jsx**: Component for displaying the list of tasks.
+       - **AuthButton.jsx**: Component for handling authentication.
+
+   - **App.jsx**: Main application component that integrates everything.
+   - **App.css**: Styles for the application.
+
+- **public/**: Static assets directory
+- **vite.config.js**: Vite configuration file
+- **package.json**: Project dependencies and scripts
+- **README.md**: Project documentation
+
+
 

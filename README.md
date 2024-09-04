@@ -2,6 +2,11 @@
 
 This project is an advanced to-do application built with React and Vite. It includes features such as task management, weather information for outdoor tasks, and authentication. This README provides an overview of the project, its features, setup instructions, and deployment details.
 
+## Live Demo
+
+Check out the live demo of the Currency Converter 
+https://to-do-reduxt.netlify.app
+
 ## Features
 
 - **Task Management:** Add, delete, and manage tasks with different priorities.

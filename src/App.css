@@ -1,0 +1,120 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.task-input {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-input label {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.task-input input,
+.task-input select,
+.task-input button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item .priority-high {
+  color: #ff0000;
+}
+
+.task-item .priority-medium {
+  color: #ffa500;
+}
+
+.task-item .priority-low {
+  color: #008000;
+}
+
+.task-item button {
+  background-color: #dc3545;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background-color: #c82333;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0f7fa;
+  border-radius: 4px;
+  text-align: left;
+}
+.task-item.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}

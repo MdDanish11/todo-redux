@@ -1,0 +1,75 @@
+/* src/index.css */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set base font settings */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Ensure the app takes up full height */
+html, body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Links should not have underlines by default */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* General button styling */
+button {
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Inputs and selects should inherit font settings */
+input,
+select {
+  font-size: 16px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Add some global padding */
+.container {
+  padding: 20px;
+}
+
+/* Headings should have consistent margin */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* General padding for sections */
+section {
+  padding: 20px;
+}

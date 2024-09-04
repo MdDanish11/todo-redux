@@ -11,9 +11,10 @@ https://to-do-reduxt.netlify.app
 
 Here are some screenshots of my project:
 
+![Screenshot 3](src/assets/todo3.png)
 ![Screenshot 1](src/assets/todo1.png)
 ![Screenshot 2](src/assets/todo2.png)
-![Screenshot 3](src/assets/todo3.png)
+
 
 ## Features
 

@@ -42,4 +42,34 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/MdDanish11/todo-redux.git
 
+2. **Navigate to the Project Directory:**
+
+   Change your directory to the cloned project:
+
+   ```bash
+   cd todo-redux
    
+## Installing Dependencies
+
+1. **Install Project Dependencies:**
+
+   Install the required dependencies using npm (or yarn):
+
+   ```bash
+   npm install
+2. **Add Your API Key:**
+
+   VITE_API_KEY=YOUR_API_KEY
+
+## Running the Development Server
+
+   1. **Start the Development Server:**
+
+      Use npm to start the development server:
+
+      ```bash
+      npm run dev
+
+   2. **Open the Application in Your Browser:**
+
+      After starting the server, open your browser and go to http://localhost:3000 to view the application.  

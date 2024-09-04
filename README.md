@@ -16,8 +16,21 @@ https://to-do-reduxt.netlify.app
 
 ## Project Setup
 
-To run this project locally, follow these steps:
+To set up and run this project locally, follow these steps:
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16.x or higher)
+- [Git](https://git-scm.com/) (for version control)
+
 
 1. **Clone the Repository:**
+
+   Open your terminal and run the following command to clone the repository:
+
    ```bash
    git clone https://github.com/MdDanish11/todo-redux.git
+
+   

@@ -7,6 +7,14 @@ This project is an advanced to-do application built with React and Vite. It incl
 Check out the live demo of the Currency Converter 
 https://to-do-reduxt.netlify.app
 
+## Overview
+
+Here are some screenshots of my project:
+
+![Screenshot 1](assets/todo1.png)
+![Screenshot 2](assets/todo2.png)
+![Screenshot 3](assets/todo3.png)
+
 ## Features
 
 - **Task Management:** Add, delete, and manage tasks with different priorities.
